@@ -370,20 +370,20 @@ aside h1{
     align-items: center;
 }
 
-#camp-contraido {
-    position: relative;
-    text-align: left;
-    margin: 60px;
-    width: 100%;
-    display: block;
-}
-
 .tabelas{
     width: 300px;
     border: 1px solid #000000;
     padding: 0px;
     margin-left: 250px;
     margin-top: 25px;
+}
+
+
+#camp-contraido {
+    position: relative;
+    text-align: left;
+    margin: 60px;
+    display: block;
 }
 
 #camp-contraido input, #camp-contraido span {
