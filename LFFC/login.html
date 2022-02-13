@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Liga Francana de Futebol de Chácara</title>
+  <link rel="stylesheet" href="login.css">
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <header>
+    <div id="LFFC">
+      <div>
+        <a href="/index.html">
+          <img src="Bola de futebol.svg" alt="Logo da BCGAMES" title="BCGAMES">
+        </a>
+      </div>
+    </div>
+  </header>
+
+
+  <nav id="menu">
+    <div id="menu-contraido">
+      <input type="checkbox">
+      <span></span>
+      <ul>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="times.html">TIMES</a></li>
+        <li><a href="campeonatos.html">CAMPEONATOS</a></li>
+        <li><a href="login.html">LOGIN</a></li>
+        <li><a href="contato.html">CONTATO</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <div id="Principal">
+    <main id="times">
+
+      <div class="container">
+        <div class="linhavertical">
+          <h1>ENTRE OU CADASTRE-SE</h1>
+          <div class="entre">
+            <div class="col">
+              <label for="inputNome" class="form-label">Nome de usuário</label>
+              <input type="text" class="form-control" placeholder="" aria-label="First name">
+            </div>
+            <div class="col">
+              <label for="inputSobrenome" class="form-label">Senha</label>
+              <input type="password" class="form-control" placeholder="" aria-label="Last name">
+            </div>
+            <br>
+            <div class="col">
+              <button type="submit" class="btn btn-primary">Entrar</button>
+            </div>
+          </div>
+        </div>
+        <div class="cadastre">
+          <br>
+          <div class="col">
+            <label for="inputSobrenome" class="form-label">Nome de usuário</label>
+            <input type="text" class="form-control" placeholder="Ricardo Aziz Muriggi" aria-label="First name">
+          </div>
+          <div class="col">
+            <label for="inputNome" class="form-label">CPF</label>
+
+            <script type="text/javascript"
+              src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.0/jquery.mask.js"></script>
+            <script>
+              $(document).ready(function () {
+                var $seuCampoCpf = $("#CPF");
+                $seuCampoCpf.mask('000.000.000-00', { reverse: true });
+              });
+            </script>
+            <input class="form-control" type="text" id="CPF" name="CPF" placeholder="111.111.111-11"/>
+          </div>
+          <div class="col">
+            <label for="inputEmail4" class="form-label">Email</label>
+            <input type="email" class="form-control" id="inputEmail4">
+          </div>
+          <div class="col">
+            <label for="inputSobrenome" class="form-label">Senha</label>
+            <input type="password" class="form-control" placeholder="" aria-label="Last name">
+          </div>
+          <div class="col">
+            <label for="inputState" class="form-label">Você é</label>
+            <select id="inputState" class="form-select">
+              <option selected>Torcedor</option>
+              <option>Jogador</option>
+              <option>Treinador</option>
+              <option>Outro</option>
+            </select>
+          </div>
+          <div class="col">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="gridCheck">
+              <label class="form-check-label" for="gridCheck">
+                Li e concordo com os <a href="../index.html" style="text-decoration: none">Termos e Condições</a>
+              </label>
+            </div>
+          </div>
+          <div class="col">
+            <button type="submit" class="btn btn-primary">Cadastrar</button>
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <footer id="texto">
+
+
+    <img src="Bola.svg" alt="Logo branca da Liga Francana de Futebol de Chácara"
+      title="Liga Francana de Futebol de Chácara">
+
+
+    <ul>
+      <li><a href="contato.html">Contato</a></li>
+      <li><a href="contato.html">Sobre Nós</a></li>
+      <li><a href="contato.html">Comunidade</a></li>
+    </ul>
+
+    <address>
+      Rua dos Bobos, 1899<br>
+      Brasilândia III, Franca-SP<br>
+      <a href="">(16)3809-0193</a><br>
+    </address>
+
+  </footer>
+
+</body>
+
+</html>
