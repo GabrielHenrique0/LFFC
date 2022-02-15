@@ -25,6 +25,14 @@ html{
     height: auto;
 }
 
+#Principal1 {
+    background-color: var(--cor-fundo-clara); 
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    height: auto;
+}
+
 header {
     background-color: var(--cor-primaria);
     display: flex;
@@ -437,6 +445,12 @@ aside h1{
 
 #camp-contraido input:checked ~ ul {
     display: block;
+}
+
+@media screen and (min-width: 1021px) {
+    #Principal1{
+        height: 100;
+    }
 }
 
 @media screen and (max-width: 1020px) {

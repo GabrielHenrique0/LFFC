@@ -267,6 +267,21 @@ button {
     color: #555555;
 }
 
+@media screen and (min-width: 1021px) {
+    .linhavertical{
+        margin-top: 130px;
+        margin-left: 160px;
+        width: 725px;
+    }
+    .cadastre{
+        margin-right: 200px;
+        margin-top: 150px;
+    }
+    .form-control{
+        width: 600px;
+    }
+}
+
 @media screen and (max-width: 1020px) {
 
     main {
@@ -501,4 +516,12 @@ button {
    50%{ margin-right:20px; transform: rotate(0deg); opacity: 1;}
    75%{ margin-right:20px; transform: rotate(0deg); opacity: 2;}
    100%{ margin-right:20px; transform: rotate(0deg); opacity: 3;}
+}
+
+#Principal{
+    height: 700px;
+}
+
+.entre, .cadastre{
+    margin-left: 0;
 }
